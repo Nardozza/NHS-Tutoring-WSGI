@@ -1,0 +1,13 @@
+Notes:
+
+app/templates/base.html
+
+--line 55, user nickname shortcode used for the dropdown on top right of page... BUT A FEW THINGS... 
+must add if/else if they're logged in, shows name, if not it shows "log in", 
+also if they're logged in the drop down settings that appear currently appear, 
+if they're logged out, there is no dropdown, it's just a link to the login page. 
+Also, I would like the full name to be displayed, not nickname here.
+
+___________________________________________________________________________
+
+run.py -- I edited to include a static folder (edits under break)
